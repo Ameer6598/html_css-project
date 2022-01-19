@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: #1F2937;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 90px;
+    font-size: 30px;
+    color: white;
+}
+.navbar li{
+    display: flex;
+    color: white;
+    list-style: none;
+}
+.navbar li a{
+    position: relative;
+    top: 10px;
+    left: 600px;
+    text-decoration: none;
+    color: white;
+    margin-right: 120px;
+    font-size: 20px; 
+}
+.hero{
+    background-color: #1F2937;
+     color: white;
+    display: flex;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+.text{
+    line-height: 2rem;
+    position: relative;
+    padding-right: 100px;
+    top: 50px;
+    line-height: 2.5rem;
+   
+}
+.text p{
+    color: skyblue;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.text button{
+    background-color: skyblue;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif
+}
+.img1{
+    position: relative;
+    right: 100px;
+    top: 60px;   
+}
+
+.head{
+    /* border: 2px solid black; */
+    padding: 10px;
+    text-align: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.box li{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.random-box{
+    width: 170px;
+    height: 170px;
+    border-radius: 7px;
+    border: 2px solid rgb(0, 165, 241);
+}
+
+.boxtx{
+
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.boxtx li{
+    list-style: none;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    width: 170px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.end{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: #1F2937;
+    border-radius: 40px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.end p{
+    font-size: 40px;
+    font-style: italic;
+}
+.end button{
+         background-color: rgb(88, 194, 236);
+         border-radius: 10px;
+         margin-top: 10px;
+         padding: 10px;
+         border: none;
+}
+.end button a{
+    
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.foot{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 10px;
+}
+
